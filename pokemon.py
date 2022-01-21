@@ -3,6 +3,7 @@ import random
 class Punch:
     name = 'punch'
     pwr = 40
+    type = 'attack'
 
 class Bulbosaur:
     name = 'bulbosaur'
@@ -10,6 +11,7 @@ class Bulbosaur:
     spd = 2
     health = 10 + (lvl * 1.7)
     attacks = [Punch]
+    type = 'pokemon'
 
 class Charizard:
     name = 'charizard'
@@ -17,6 +19,7 @@ class Charizard:
     spd = 3
     health = 10 + (lvl * 1.7)
     attacks = [Punch]
+    type = 'pokemon'
 
 class Squirtle:
     name = 'squirtle'
@@ -24,6 +27,7 @@ class Squirtle:
     spd = 1
     health = 10 + (lvl * 1.7)
     attacks = [Punch]
+    type = 'pokemon'
 
 #currency
 crncy = 100
