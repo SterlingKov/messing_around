@@ -1,5 +1,9 @@
+
 def str_to_int():
     a = input("enter a number: ")
-    return print(int(a))
+    if int(a):
+        print(int(a))
+    else:
+        print(a)
 
 str_to_int()
